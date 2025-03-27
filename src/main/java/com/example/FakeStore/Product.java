@@ -6,11 +6,11 @@ import lombok.AllArgsConstructor;
 @Data
 @AllArgsConstructor
 public class Product {
-    public int id;
-    public String title;
-    public double price;
-    public String category;
-    public String description;
-    public String image;
+    private int id;
+    private String title;
+    private double price;
+    private String category;
+    private String description;
+    private String image;
 }
 
